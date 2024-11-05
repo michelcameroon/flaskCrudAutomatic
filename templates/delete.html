@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Record</title>
+</head>
+<body>
+    <h1>Delete Record</h1>
+    <p>Are you sure you want to delete this record?</p>
+    <p><strong>Name:</strong> {{ record.name }}</p>
+    <p><strong>Email:</strong> {{ record.email }}</p>
+    <form method="POST">
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
